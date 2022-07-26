@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" type = "text/css">
-    <script src="jquery.js" type = "text/javascript"></script>
-  
+    <link rel="stylesheet" href="style.css">
+    <script  type = "text/javascript" src="jquery.js"></script>
+    
     <title>Library</title>
 </head>
 <body>
-    <script src="javascipt.js" type = "text/javascript"></script> 
+    <!--form to add the book-->
+    <form name = "addBook" id = "addBook" action="">
+        <!---Name-->
+        <div><label for="name">Name</label>
+        <input name = "name" id = "name" type="text"></div>
+        <!--Author-->
+        <div><label for="author">Author</label>
+        <input name = "author" id = "author" type="text"></div>
+        <!--NUmber of pages-->
+        <div><label for="page_number">Number of pages</label>
+        <input name = "page_number" id = "page_number" type="number">
+        </div>
+      
+        </div>
+        
+    
+    </form>
+    
+    <button id = "add">Add Book</button>
+   
+    <h2>Books:</h2>
+    <div id = "bookShelf">
+      
+    </div>
+    <!--<button id = "remove book">Remove Book</button>-->
+    <script  type="text/javascript" src="javascript.js"></script> 
 </body>
 </html>
